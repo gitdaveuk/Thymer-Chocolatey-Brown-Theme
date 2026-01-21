@@ -1,9 +1,3 @@
-@media (min-width: 768px) {
-    body {
-        --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    }
-}
-
 /*
 * Mocha Theme for Thymer
 * Rich, warm chocolatey browns with cozy accents
@@ -40,8 +34,8 @@ html[data-theme="basic-mocha-dark"] {
     --color-bg-500: #1e1612;
     --color-bg-600: #1e1612;
     --color-bg-700: #16110d;
-    --color-bg-800: #3a2c21; /* Sidebar - medium brown */
-    --color-bg-900: #1e1612; /* Main window - dark chocolate */
+    --color-bg-800: #1e1612; /* Sidebar - medium brown */
+    --color-bg-900: #0f0703; /* Main window - dark chocolate */
     --color-bg-950: #0f0b08;
     --color-bg-500-50: rgba(30, 22, 18, 0.5);
     --color-bg-950-50: rgba(15, 11, 8, 0.65);
@@ -441,6 +435,6 @@ html[data-theme="basic-mocha-light"] {
 html[data-theme] {
 --ed-caret-self-radius: 2px;
 --ed-caret-self-border-width: 0px;
---ed-caret-self-background: color-mix(in srgb, rosybrown 70%, transparent);
---ed-caret-self-box-shadow: 0 0 2px rosybrown;
+--ed-caret-self-background: color-mix(in srgb, darkorange 70%, transparent);
+--ed-caret-self-box-shadow: 0 0 2px darkorange;
 }
