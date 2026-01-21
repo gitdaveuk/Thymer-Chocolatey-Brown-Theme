@@ -1,0 +1,446 @@
+@media (min-width: 768px) {
+    body {
+        --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+}
+
+/*
+* Mocha Theme for Thymer
+* Rich, warm chocolatey browns with cozy accents
+* Variants: Dark (Espresso) and Light (Latte)
+*/
+
+/* ------------------------------------------- */
+/* Mocha Espresso - Dark & Rich                */
+/* ------------------------------------------- */
+html[data-theme="basic-mocha-dark"] {
+    color-scheme: dark;
+
+    /* ------------------------------------------- */
+    /* 1. Headings - Warm Cream                   */
+    /* ------------------------------------------- */
+    .heading-h1,
+    .heading-h2,
+    .heading-h3,
+    .heading-h4,
+    .heading-h5,
+    .heading-h6 {
+        color: #f5e6d3;
+    }
+
+    /* ------------------------------------------- */
+    /* 2. Background Colors - Coffee Tones        */
+    /* ------------------------------------------- */
+    --color-bg-50: #8b7355;
+    --color-bg-100: #6b5444;
+    --color-bg-150: #5a4637;
+    --color-bg-200: #4a382b;
+    --color-bg-300: #3a2c21;
+    --color-bg-400: #2d2119;
+    --color-bg-500: #1e1612;
+    --color-bg-600: #1e1612;
+    --color-bg-700: #16110d;
+    --color-bg-800: #3a2c21; /* Sidebar - medium brown */
+    --color-bg-900: #1e1612; /* Main window - dark chocolate */
+    --color-bg-950: #0f0b08;
+    --color-bg-500-50: rgba(30, 22, 18, 0.5);
+    --color-bg-950-50: rgba(15, 11, 8, 0.65);
+
+    /* ------------------------------------------- */
+    /* 3. Primary Colors - Caramel Accent         */
+    /* ------------------------------------------- */
+    --color-primary-50: #fef3c7;
+    --color-primary-100: #fde68a;
+    --color-primary-200: #fcd34d;
+    --color-primary-300: #fbbf24;
+    --color-primary-400: #d97706; /* Rich caramel */
+    --color-primary-500: #b45309;
+    --color-primary-600: #92400e;
+    --color-primary-700: #78350f;
+    --color-primary-800: #451a03;
+    --color-primary-900: #3a1502;
+    --color-primary-950: #1c0a01;
+    --color-primary-400-70: rgba(217, 119, 6, 0.7);
+    --color-primary-950-20: rgba(28, 10, 1, 0.2);
+    --color-primary-text-100: #1e1612;
+
+    /* ------------------------------------------- */
+    /* 4. Text & Icons - Cream & Latte            */
+    /* ------------------------------------------- */
+    --color-text-50: #f5e6d3;
+    --color-text-100: #ffffff;
+    --color-text-200: #eddcc7;
+    --color-text-300: #d4c4b0;
+    --color-text-400: #b8a68f;
+    --color-text-500: #8b7355;
+    --color-text-600: #6b5444;
+    --color-text-700: #d97706;
+    --color-text-800: #d4c4b0;
+    --color-text-900: #3a2c21;
+    --color-text-950: #8b7355;
+
+    /* ------------------------------------------- */
+    /* 5. Semantic Colors - Warm Tones            */
+    /* ------------------------------------------- */
+    --text-ok: #84cc16;
+    --text-status-online: #84cc16;
+    --text-warning: #fbbf24;
+    --text-error: #dc2626;
+    --bg-alert: #dc2626;
+    --fg-alert: #f5e6d3;
+
+    /* ------------------------------------------- */
+    /* 6. Links, Tags & Mentions - Golden Hour    */
+    /* ------------------------------------------- */
+    --link-color: #f59e0b;
+    --link-hover-color: #fbbf24;
+    --ed-link-color: #f59e0b;
+    --ed-link-hover-color: #fbbf24;
+
+    --ed-hashtag-color: #d97706;
+    --ed-hashtag-bg: rgba(217, 119, 6, 0.15);
+
+    --ed-mention-color: #fbbf24;
+    --ed-mention-bg: rgba(251, 191, 36, 0.15);
+    --ed-mention-hover-bg: rgba(251, 191, 36, 0.25);
+    --ed-mention-hover-color: #fcd34d;
+
+    --ed-datetime-color: #fb923c;
+    --ed-datetime-bg: rgba(251, 146, 60, 0.15);
+
+    /* ------------------------------------------- */
+    /* 7. Tasks & Checkboxes - Caramel            */
+    /* ------------------------------------------- */
+    --ed-check-div-border: #d97706;
+    --ed-check-div-hover-border: #f59e0b;
+    --ed-check-done-bg: #d97706;
+    --ed-check-done-fg: #1e1612;
+
+    /* Done task styling */
+    .listitem.listitem-task.state-done .lineitem-text {
+        color: #8b7355 !important;
+        text-decoration-color: #8b7355 !important;
+        opacity: 1 !important;
+    }
+
+    /* ------------------------------------------- */
+    /* 8. Selection & Caret - Golden Glow         */
+    /* ------------------------------------------- */
+    --selection-bg: rgba(217, 119, 6, 0.3);
+    --selection-fg: #ffffff;
+    --ed-selection-self-bg: rgba(217, 119, 6, 0.3);
+    --ed-selection-blurred-bg: rgba(217, 119, 6, 0.15);
+
+    --ed-caret-self-radius: 2px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: #f59e0b;
+    --ed-caret-self-box-shadow: 0 0 4px rgba(245, 158, 11, 0.5);
+
+    /* ------------------------------------------- */
+    /* 9. Quotes & Code - Warm Containers         */
+    /* ------------------------------------------- */
+    --ed-quote-border-color: #d97706;
+
+    --ed-code-border: transparent;
+    --ed-code-bg: rgba(58, 44, 33, 0.6);
+
+    /* Inline code */
+    .lineitem-code {
+        background-color: var(--color-bg-200) !important;
+        color: #fbbf24 !important;
+        border-radius: 4px;
+        padding: 2px 5px;
+        font-family: var(--font-monospace);
+    }
+
+    /* Note blocks */
+    --ed-block-note-bg: rgba(217, 119, 6, 0.1);
+    --ed-block-note-border: #d97706;
+
+    /* ------------------------------------------- */
+    /* 10. UI Components - Cozy Interface         */
+    /* ------------------------------------------- */
+    --cards-bg: #1e1612;
+    --cards-hover-bg: #2d2119;
+    --cards-border-color: transparent;
+    --cards-border-color-focused: transparent;
+
+    --side-bg-active-focus: #78350f;
+    --side-fg-active-focus: #f5e6d3;
+    --sidebar-bg-hover: #2d2119;
+    --sidebar-border-color: transparent;
+
+    --cmdpal-bg-color: #1e1612;
+    --cmdpal-selected-bg-color: #d97706;
+    --cmdpal-selected-fg-color: #1e1612;
+    --cmdpal-hover-bg-color: #2d2119;
+    --cmdpal-border-color: transparent;
+
+    --input-bg-color: #1e1612;
+    --input-border-color: transparent;
+    --input-border-focus: 1px solid #d97706;
+    --input-border-shadow: 0 0 8px rgba(217, 119, 6, 0.4);
+
+    --button-primary-bg-color: #d97706;
+    --button-primary-fg-color: #1e1612;
+    --button-primary-bg-hover-color: #b45309;
+    --button-bg-color: #2d2119;
+    --button-border-color: transparent;
+    --button-bg-hover-color: #4a382b;
+
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --color-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.4);
+
+    --logo-color: #d97706;
+    --logo-glow-shadow:
+        0 0 15px rgba(217, 119, 6, 0.4),
+        0 0 30px rgba(217, 119, 6, 0.2);
+
+    /* Enums - Warm Palette */
+    --enum-red-bg: rgba(220, 38, 38, 0.25);
+    --enum-red-fg: #dc2626;
+    --enum-orange-bg: rgba(251, 146, 60, 0.25);
+    --enum-orange-fg: #fb923c;
+    --enum-yellow-bg: rgba(251, 191, 36, 0.25);
+    --enum-yellow-fg: #fbbf24;
+    --enum-green-bg: rgba(132, 204, 22, 0.25);
+    --enum-green-fg: #84cc16;
+    --enum-cyan-bg: rgba(6, 182, 212, 0.25);
+    --enum-cyan-fg: #06b6d4;
+    --enum-blue-bg: rgba(59, 130, 246, 0.25);
+    --enum-blue-fg: #3b82f6;
+    --enum-purple-bg: rgba(168, 85, 247, 0.25);
+    --enum-purple-fg: #a855f7;
+    --enum-pink-bg: rgba(236, 72, 153, 0.25);
+    --enum-pink-fg: #ec4899;
+
+    --prop-border-focused: #1e1612;
+    --prop-bg-focused: rgba(217, 119, 6, 0.3);
+    --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
+    --ed-drag-handle-color: #d97706;
+    --ed-drag-handle-hover-border: #f59e0b;
+
+    --gradient-scrim: none;
+}
+
+/* ------------------------------------------- */
+/* Mocha Latte - Light & Creamy                */
+/* ------------------------------------------- */
+html[data-theme="basic-mocha-light"] {
+    color-scheme: light;
+
+    /* ------------------------------------------- */
+    /* 1. Headings - Deep Brown                   */
+    /* ------------------------------------------- */
+    .heading-h1,
+    .heading-h2,
+    .heading-h3,
+    .heading-h4,
+    .heading-h5,
+    .heading-h6 {
+        color: #3a2c21;
+    }
+
+    /* ------------------------------------------- */
+    /* 2. Background Colors - Creamy Warmth       */
+    /* ------------------------------------------- */
+    --color-bg-50: #b8a68f;
+    --color-bg-100: #d4c4b0;
+    --color-bg-150: #e5d9c8;
+    --color-bg-200: #eddcc7;
+    --color-bg-300: #f5e6d3;
+    --color-bg-400: #f9ede0;
+    --color-bg-500: #fcf5ed;
+    --color-bg-600: #fcf5ed;
+    --color-bg-700: #fefcfa;
+    --color-bg-800: #eddcc7; /* Sidebar - warm cream */
+    --color-bg-900: #f5ebe0; /* Main window - soft latte */
+    --color-bg-950: #fcf5ed;
+    --color-bg-500-50: rgba(252, 245, 237, 0.5);
+    --color-bg-950-50: rgba(252, 245, 237, 0.65);
+
+    /* ------------------------------------------- */
+    /* 3. Primary Colors - Rich Amber             */
+    /* ------------------------------------------- */
+    --color-primary-50: #1c0a01;
+    --color-primary-100: #3a1502;
+    --color-primary-200: #451a03;
+    --color-primary-300: #78350f;
+    --color-primary-400: #92400e; /* Rich amber */
+    --color-primary-500: #b45309;
+    --color-primary-600: #d97706;
+    --color-primary-700: #f59e0b;
+    --color-primary-800: #fbbf24;
+    --color-primary-900: #fcd34d;
+    --color-primary-950: #fef3c7;
+    --color-primary-400-70: rgba(146, 64, 14, 0.7);
+    --color-primary-950-20: rgba(254, 243, 199, 0.2);
+    --color-primary-text-100: #ffffff;
+
+    /* ------------------------------------------- */
+    /* 4. Text & Icons - Rich Browns              */
+    /* ------------------------------------------- */
+    --color-text-50: #2d2119;
+    --color-text-100: #000000;
+    --color-text-200: #3a2c21;
+    --color-text-300: #4a382b;
+    --color-text-400: #5a4637;
+    --color-text-500: #6b5444;
+    --color-text-600: #8b7355;
+    --color-text-700: #92400e;
+    --color-text-800: #3a2c21;
+    --color-text-900: #fcf5ed;
+    --color-text-950: #6b5444;
+
+    /* ------------------------------------------- */
+    /* 5. Semantic Colors - Natural Tones         */
+    /* ------------------------------------------- */
+    --text-ok: #65a30d;
+    --text-status-online: #65a30d;
+    --text-warning: #d97706;
+    --text-error: #dc2626;
+    --bg-alert: #dc2626;
+    --fg-alert: #ffffff;
+
+    /* ------------------------------------------- */
+    /* 6. Links, Tags & Mentions - Amber Glow     */
+    /* ------------------------------------------- */
+    --link-color: #92400e;
+    --link-hover-color: #78350f;
+    --ed-link-color: #92400e;
+    --ed-link-hover-color: #78350f;
+
+    --ed-hashtag-color: #b45309;
+    --ed-hashtag-bg: rgba(180, 83, 9, 0.1);
+
+    --ed-mention-color: #92400e;
+    --ed-mention-bg: rgba(146, 64, 14, 0.1);
+    --ed-mention-hover-bg: rgba(146, 64, 14, 0.2);
+    --ed-mention-hover-color: #78350f;
+
+    --ed-datetime-color: #d97706;
+    --ed-datetime-bg: rgba(217, 119, 6, 0.1);
+
+    /* ------------------------------------------- */
+    /* 7. Tasks & Checkboxes - Amber              */
+    /* ------------------------------------------- */
+    --ed-check-div-border: #92400e;
+    --ed-check-div-hover-border: #78350f;
+    --ed-check-done-bg: #92400e;
+    --ed-check-done-fg: #ffffff;
+
+    /* Done task styling */
+    .listitem.listitem-task.state-done .lineitem-text {
+        color: #8b7355 !important;
+        text-decoration-color: #8b7355 !important;
+        opacity: 1 !important;
+    }
+
+    /* ------------------------------------------- */
+    /* 8. Selection & Caret - Warm Highlight      */
+    /* ------------------------------------------- */
+    --selection-bg: rgba(146, 64, 14, 0.2);
+    --selection-fg: #2d2119;
+    --ed-selection-self-bg: rgba(146, 64, 14, 0.2);
+    --ed-selection-blurred-bg: rgba(146, 64, 14, 0.1);
+
+    --ed-caret-self-radius: 2px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: #92400e;
+    --ed-caret-self-box-shadow: 0 0 4px rgba(146, 64, 14, 0.4);
+
+    /* ------------------------------------------- */
+    /* 9. Quotes & Code - Soft Containers         */
+    /* ------------------------------------------- */
+    --ed-quote-border-color: #92400e;
+
+    --ed-code-border: transparent;
+    --ed-code-bg: rgba(237, 220, 199, 0.6);
+
+    /* Inline code */
+    .lineitem-code {
+        background-color: var(--color-bg-200) !important;
+        color: #b45309 !important;
+        border-radius: 4px;
+        padding: 2px 5px;
+        font-family: var(--font-monospace);
+    }
+
+    /* Note blocks */
+    --ed-block-note-bg: rgba(146, 64, 14, 0.08);
+    --ed-block-note-border: #92400e;
+
+    /* ------------------------------------------- */
+    /* 10. UI Components - Warm Interface         */
+    /* ------------------------------------------- */
+    --cards-bg: #f5ebe0;
+    --cards-hover-bg: #eddcc7;
+    --cards-border-color: transparent;
+    --cards-border-color-focused: transparent;
+
+    --side-bg-active-focus: #92400e;
+    --side-fg-active-focus: #ffffff;
+    --sidebar-bg-hover: #e5d9c8;
+    --sidebar-border-color: transparent;
+
+    --cmdpal-bg-color: #fcf5ed;
+    --cmdpal-selected-bg-color: #92400e;
+    --cmdpal-selected-fg-color: #ffffff;
+    --cmdpal-hover-bg-color: #f5e6d3;
+    --cmdpal-border-color: transparent;
+
+    --input-bg-color: #fcf5ed;
+    --input-border-color: transparent;
+    --input-border-focus: 1px solid #92400e;
+    --input-border-shadow: 0 0 8px rgba(146, 64, 14, 0.3);
+
+    --button-primary-bg-color: #92400e;
+    --button-primary-fg-color: #ffffff;
+    --button-primary-bg-hover-color: #78350f;
+    --button-bg-color: #eddcc7;
+    --button-border-color: transparent;
+    --button-bg-hover-color: #e5d9c8;
+
+    --color-shadow: rgba(58, 44, 33, 0.1);
+    --color-shadow-cards: 0 4px 6px rgba(58, 44, 33, 0.06);
+    --color-shadow-hover: 0 6px 12px rgba(58, 44, 33, 0.12);
+
+    --logo-color: #92400e;
+    --logo-glow-shadow:
+        0 0 15px rgba(146, 64, 14, 0.3),
+        0 0 30px rgba(146, 64, 14, 0.2);
+
+    /* Enums - Earthy Palette */
+    --enum-red-bg: rgba(220, 38, 38, 0.15);
+    --enum-red-fg: #dc2626;
+    --enum-orange-bg: rgba(217, 119, 6, 0.15);
+    --enum-orange-fg: #d97706;
+    --enum-yellow-bg: rgba(202, 138, 4, 0.15);
+    --enum-yellow-fg: #ca8a04;
+    --enum-green-bg: rgba(101, 163, 13, 0.15);
+    --enum-green-fg: #65a30d;
+    --enum-cyan-bg: rgba(8, 145, 178, 0.15);
+    --enum-cyan-fg: #0891b2;
+    --enum-blue-bg: rgba(37, 99, 235, 0.15);
+    --enum-blue-fg: #2563eb;
+    --enum-purple-bg: rgba(124, 58, 237, 0.15);
+    --enum-purple-fg: #7c3aed;
+    --enum-pink-bg: rgba(219, 39, 119, 0.15);
+    --enum-pink-fg: #db2777;
+
+    --prop-border-focused: #fcf5ed;
+    --prop-bg-focused: rgba(146, 64, 14, 0.2);
+    --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
+    --ed-drag-handle-color: #92400e;
+    --ed-drag-handle-hover-border: #78350f;
+
+    --gradient-scrim: none;
+}
+
+html[data-theme] {
+--ed-caret-self-radius: 2px;
+--ed-caret-self-border-width: 0px;
+--ed-caret-self-background: color-mix(in srgb, rosybrown 70%, transparent);
+--ed-caret-self-box-shadow: 0 0 2px rosybrown;
+}
