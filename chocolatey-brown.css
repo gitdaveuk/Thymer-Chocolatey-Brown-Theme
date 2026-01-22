@@ -41,21 +41,21 @@ html[data-theme="basic-mocha-dark"] {
     --color-bg-950-50: rgba(15, 11, 8, 0.65);
 
     /* ------------------------------------------- */
-    /* 3. Primary Colors - Caramel Accent         */
+    /* 3. Primary Colors - Indian Red Accent      */
     /* ------------------------------------------- */
-    --color-primary-50: #fef3c7;
-    --color-primary-100: #fde68a;
-    --color-primary-200: #fcd34d;
-    --color-primary-300: #fbbf24;
-    --color-primary-400: #d97706; /* Rich caramel */
-    --color-primary-500: #b45309;
-    --color-primary-600: #92400e;
-    --color-primary-700: #78350f;
-    --color-primary-800: #451a03;
-    --color-primary-900: #3a1502;
-    --color-primary-950: #1c0a01;
-    --color-primary-400-70: rgba(217, 119, 6, 0.7);
-    --color-primary-950-20: rgba(28, 10, 1, 0.2);
+    --color-primary-50: #fef2f2;
+    --color-primary-100: #fee2e2;
+    --color-primary-200: #fecaca;
+    --color-primary-300: #fca5a5;
+    --color-primary-400: #cd5c5c; /* Indian Red */
+    --color-primary-500: #b94a4a;
+    --color-primary-600: #a43a3a;
+    --color-primary-700: #8b2c2c;
+    --color-primary-800: #6b1f1f;
+    --color-primary-900: #4a1616;
+    --color-primary-950: #2a0d0d;
+    --color-primary-400-70: rgba(205, 92, 92, 0.7);
+    --color-primary-950-20: rgba(42, 13, 13, 0.2);
     --color-primary-text-100: #1e1612;
 
     /* ------------------------------------------- */
@@ -68,7 +68,7 @@ html[data-theme="basic-mocha-dark"] {
     --color-text-400: #b8a68f;
     --color-text-500: #8b7355;
     --color-text-600: #6b5444;
-    --color-text-700: #d97706;
+    --color-text-700: #cd5c5c;
     --color-text-800: #d4c4b0;
     --color-text-900: #3a2c21;
     --color-text-950: #8b7355;
@@ -86,28 +86,28 @@ html[data-theme="basic-mocha-dark"] {
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions - Golden Hour    */
     /* ------------------------------------------- */
-    --link-color: #f59e0b;
-    --link-hover-color: #fbbf24;
-    --ed-link-color: #f59e0b;
-    --ed-link-hover-color: #fbbf24;
+    --link-color: #e07a5f;
+    --link-hover-color: #f4a582;
+    --ed-link-color: #e07a5f;
+    --ed-link-hover-color: #f4a582;
 
-    --ed-hashtag-color: #d97706;
-    --ed-hashtag-bg: rgba(217, 119, 6, 0.15);
+    --ed-hashtag-color: #cd5c5c;
+    --ed-hashtag-bg: rgba(205, 92, 92, 0.15);
 
     --ed-mention-color: #fbbf24;
     --ed-mention-bg: rgba(251, 191, 36, 0.15);
     --ed-mention-hover-bg: rgba(251, 191, 36, 0.25);
     --ed-mention-hover-color: #fcd34d;
 
-    --ed-datetime-color: #fb923c;
-    --ed-datetime-bg: rgba(251, 146, 60, 0.15);
+    --ed-datetime-color: #e07a5f;
+    --ed-datetime-bg: rgba(224, 122, 95, 0.15);
 
     /* ------------------------------------------- */
-    /* 7. Tasks & Checkboxes - Caramel            */
+    /* 7. Tasks & Checkboxes - Indian Red         */
     /* ------------------------------------------- */
-    --ed-check-div-border: #d97706;
-    --ed-check-div-hover-border: #f59e0b;
-    --ed-check-done-bg: #d97706;
+    --ed-check-div-border: #cd5c5c;
+    --ed-check-div-hover-border: #e07a5f;
+    --ed-check-done-bg: #cd5c5c;
     --ed-check-done-fg: #1e1612;
 
     /* Done task styling */
@@ -118,22 +118,22 @@ html[data-theme="basic-mocha-dark"] {
     }
 
     /* ------------------------------------------- */
-    /* 8. Selection & Caret - Golden Glow         */
+    /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
-    --selection-bg: rgba(217, 119, 6, 0.3);
+    --selection-bg: rgba(205, 92, 92, 0.3);
     --selection-fg: #ffffff;
-    --ed-selection-self-bg: rgba(217, 119, 6, 0.3);
-    --ed-selection-blurred-bg: rgba(217, 119, 6, 0.15);
+    --ed-selection-self-bg: rgba(205, 92, 92, 0.3);
+    --ed-selection-blurred-bg: rgba(205, 92, 92, 0.15);
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: #f59e0b;
-    --ed-caret-self-box-shadow: 0 0 4px rgba(245, 158, 11, 0.5);
+    --ed-caret-self-background: color-mix(in srgb, indianred 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 2px indianred;
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code - Warm Containers         */
     /* ------------------------------------------- */
-    --ed-quote-border-color: #d97706;
+    --ed-quote-border-color: #cd5c5c;
 
     --ed-code-border: transparent;
     --ed-code-bg: rgba(58, 44, 33, 0.6);
@@ -148,8 +148,8 @@ html[data-theme="basic-mocha-dark"] {
     }
 
     /* Note blocks */
-    --ed-block-note-bg: rgba(217, 119, 6, 0.1);
-    --ed-block-note-border: #d97706;
+    --ed-block-note-bg: rgba(205, 92, 92, 0.1);
+    --ed-block-note-border: #cd5c5c;
 
     /* ------------------------------------------- */
     /* 10. UI Components - Cozy Interface         */
@@ -159,25 +159,25 @@ html[data-theme="basic-mocha-dark"] {
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
-    --side-bg-active-focus: #78350f;
+    --side-bg-active-focus: #8b2c2c;
     --side-fg-active-focus: #f5e6d3;
     --sidebar-bg-hover: #2d2119;
     --sidebar-border-color: transparent;
 
     --cmdpal-bg-color: #1e1612;
-    --cmdpal-selected-bg-color: #d97706;
+    --cmdpal-selected-bg-color: #cd5c5c;
     --cmdpal-selected-fg-color: #1e1612;
     --cmdpal-hover-bg-color: #2d2119;
     --cmdpal-border-color: transparent;
 
     --input-bg-color: #1e1612;
     --input-border-color: transparent;
-    --input-border-focus: 1px solid #d97706;
-    --input-border-shadow: 0 0 8px rgba(217, 119, 6, 0.4);
+    --input-border-focus: 1px solid #cd5c5c;
+    --input-border-shadow: 0 0 8px rgba(205, 92, 92, 0.4);
 
-    --button-primary-bg-color: #d97706;
+    --button-primary-bg-color: #cd5c5c;
     --button-primary-fg-color: #1e1612;
-    --button-primary-bg-hover-color: #b45309;
+    --button-primary-bg-hover-color: #b94a4a;
     --button-bg-color: #2d2119;
     --button-border-color: transparent;
     --button-bg-hover-color: #4a382b;
@@ -186,16 +186,16 @@ html[data-theme="basic-mocha-dark"] {
     --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.3);
     --color-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.4);
 
-    --logo-color: #d97706;
+    --logo-color: #cd5c5c;
     --logo-glow-shadow:
-        0 0 15px rgba(217, 119, 6, 0.4),
-        0 0 30px rgba(217, 119, 6, 0.2);
+        0 0 15px rgba(205, 92, 92, 0.4),
+        0 0 30px rgba(205, 92, 92, 0.2);
 
     /* Enums - Warm Palette */
     --enum-red-bg: rgba(220, 38, 38, 0.25);
     --enum-red-fg: #dc2626;
-    --enum-orange-bg: rgba(251, 146, 60, 0.25);
-    --enum-orange-fg: #fb923c;
+    --enum-orange-bg: rgba(224, 122, 95, 0.25);
+    --enum-orange-fg: #e07a5f;
     --enum-yellow-bg: rgba(251, 191, 36, 0.25);
     --enum-yellow-fg: #fbbf24;
     --enum-green-bg: rgba(132, 204, 22, 0.25);
@@ -210,10 +210,10 @@ html[data-theme="basic-mocha-dark"] {
     --enum-pink-fg: #ec4899;
 
     --prop-border-focused: #1e1612;
-    --prop-bg-focused: rgba(217, 119, 6, 0.3);
+    --prop-bg-focused: rgba(205, 92, 92, 0.3);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
-    --ed-drag-handle-color: #d97706;
-    --ed-drag-handle-hover-border: #f59e0b;
+    --ed-drag-handle-color: #cd5c5c;
+    --ed-drag-handle-hover-border: #e07a5f;
 
     --gradient-scrim: none;
 }
@@ -255,21 +255,21 @@ html[data-theme="basic-mocha-light"] {
     --color-bg-950-50: rgba(252, 245, 237, 0.65);
 
     /* ------------------------------------------- */
-    /* 3. Primary Colors - Rich Amber             */
+    /* 3. Primary Colors - Rich Indian Red        */
     /* ------------------------------------------- */
-    --color-primary-50: #1c0a01;
-    --color-primary-100: #3a1502;
-    --color-primary-200: #451a03;
-    --color-primary-300: #78350f;
-    --color-primary-400: #92400e; /* Rich amber */
-    --color-primary-500: #b45309;
-    --color-primary-600: #d97706;
-    --color-primary-700: #f59e0b;
-    --color-primary-800: #fbbf24;
-    --color-primary-900: #fcd34d;
-    --color-primary-950: #fef3c7;
-    --color-primary-400-70: rgba(146, 64, 14, 0.7);
-    --color-primary-950-20: rgba(254, 243, 199, 0.2);
+    --color-primary-50: #2a0d0d;
+    --color-primary-100: #4a1616;
+    --color-primary-200: #6b1f1f;
+    --color-primary-300: #8b2c2c;
+    --color-primary-400: #a43a3a; /* Rich Indian Red */
+    --color-primary-500: #b94a4a;
+    --color-primary-600: #cd5c5c;
+    --color-primary-700: #e07a5f;
+    --color-primary-800: #f4a582;
+    --color-primary-900: #fca5a5;
+    --color-primary-950: #fef2f2;
+    --color-primary-400-70: rgba(164, 58, 58, 0.7);
+    --color-primary-950-20: rgba(254, 242, 242, 0.2);
     --color-primary-text-100: #ffffff;
 
     /* ------------------------------------------- */
@@ -282,7 +282,7 @@ html[data-theme="basic-mocha-light"] {
     --color-text-400: #5a4637;
     --color-text-500: #6b5444;
     --color-text-600: #8b7355;
-    --color-text-700: #92400e;
+    --color-text-700: #a43a3a;
     --color-text-800: #3a2c21;
     --color-text-900: #fcf5ed;
     --color-text-950: #6b5444;
@@ -298,30 +298,30 @@ html[data-theme="basic-mocha-light"] {
     --fg-alert: #ffffff;
 
     /* ------------------------------------------- */
-    /* 6. Links, Tags & Mentions - Amber Glow     */
+    /* 6. Links, Tags & Mentions - Warm Glow      */
     /* ------------------------------------------- */
-    --link-color: #92400e;
-    --link-hover-color: #78350f;
-    --ed-link-color: #92400e;
-    --ed-link-hover-color: #78350f;
+    --link-color: #a43a3a;
+    --link-hover-color: #8b2c2c;
+    --ed-link-color: #a43a3a;
+    --ed-link-hover-color: #8b2c2c;
 
-    --ed-hashtag-color: #b45309;
-    --ed-hashtag-bg: rgba(180, 83, 9, 0.1);
+    --ed-hashtag-color: #b94a4a;
+    --ed-hashtag-bg: rgba(185, 74, 74, 0.1);
 
-    --ed-mention-color: #92400e;
-    --ed-mention-bg: rgba(146, 64, 14, 0.1);
-    --ed-mention-hover-bg: rgba(146, 64, 14, 0.2);
-    --ed-mention-hover-color: #78350f;
+    --ed-mention-color: #a43a3a;
+    --ed-mention-bg: rgba(164, 58, 58, 0.1);
+    --ed-mention-hover-bg: rgba(164, 58, 58, 0.2);
+    --ed-mention-hover-color: #8b2c2c;
 
-    --ed-datetime-color: #d97706;
-    --ed-datetime-bg: rgba(217, 119, 6, 0.1);
+    --ed-datetime-color: #cd5c5c;
+    --ed-datetime-bg: rgba(205, 92, 92, 0.1);
 
     /* ------------------------------------------- */
-    /* 7. Tasks & Checkboxes - Amber              */
+    /* 7. Tasks & Checkboxes - Indian Red         */
     /* ------------------------------------------- */
-    --ed-check-div-border: #92400e;
-    --ed-check-div-hover-border: #78350f;
-    --ed-check-done-bg: #92400e;
+    --ed-check-div-border: #a43a3a;
+    --ed-check-div-hover-border: #8b2c2c;
+    --ed-check-done-bg: #a43a3a;
     --ed-check-done-fg: #ffffff;
 
     /* Done task styling */
@@ -332,22 +332,22 @@ html[data-theme="basic-mocha-light"] {
     }
 
     /* ------------------------------------------- */
-    /* 8. Selection & Caret - Warm Highlight      */
+    /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
-    --selection-bg: rgba(146, 64, 14, 0.2);
+    --selection-bg: rgba(164, 58, 58, 0.2);
     --selection-fg: #2d2119;
-    --ed-selection-self-bg: rgba(146, 64, 14, 0.2);
-    --ed-selection-blurred-bg: rgba(146, 64, 14, 0.1);
+    --ed-selection-self-bg: rgba(164, 58, 58, 0.2);
+    --ed-selection-blurred-bg: rgba(164, 58, 58, 0.1);
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: #92400e;
-    --ed-caret-self-box-shadow: 0 0 4px rgba(146, 64, 14, 0.4);
+    --ed-caret-self-background: color-mix(in srgb, indigo 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 2px indigo;
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code - Soft Containers         */
     /* ------------------------------------------- */
-    --ed-quote-border-color: #92400e;
+    --ed-quote-border-color: #a43a3a;
 
     --ed-code-border: transparent;
     --ed-code-bg: rgba(237, 220, 199, 0.6);
@@ -362,8 +362,8 @@ html[data-theme="basic-mocha-light"] {
     }
 
     /* Note blocks */
-    --ed-block-note-bg: rgba(146, 64, 14, 0.08);
-    --ed-block-note-border: #92400e;
+    --ed-block-note-bg: rgba(164, 58, 58, 0.08);
+    --ed-block-note-border: #a43a3a;
 
     /* ------------------------------------------- */
     /* 10. UI Components - Warm Interface         */
@@ -373,25 +373,25 @@ html[data-theme="basic-mocha-light"] {
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
-    --side-bg-active-focus: #92400e;
+    --side-bg-active-focus: #a43a3a;
     --side-fg-active-focus: #ffffff;
     --sidebar-bg-hover: #e5d9c8;
     --sidebar-border-color: transparent;
 
     --cmdpal-bg-color: #fcf5ed;
-    --cmdpal-selected-bg-color: #92400e;
+    --cmdpal-selected-bg-color: #a43a3a;
     --cmdpal-selected-fg-color: #ffffff;
     --cmdpal-hover-bg-color: #f5e6d3;
     --cmdpal-border-color: transparent;
 
     --input-bg-color: #fcf5ed;
     --input-border-color: transparent;
-    --input-border-focus: 1px solid #92400e;
-    --input-border-shadow: 0 0 8px rgba(146, 64, 14, 0.3);
+    --input-border-focus: 1px solid #a43a3a;
+    --input-border-shadow: 0 0 8px rgba(164, 58, 58, 0.3);
 
-    --button-primary-bg-color: #92400e;
+    --button-primary-bg-color: #a43a3a;
     --button-primary-fg-color: #ffffff;
-    --button-primary-bg-hover-color: #78350f;
+    --button-primary-bg-hover-color: #8b2c2c;
     --button-bg-color: #eddcc7;
     --button-border-color: transparent;
     --button-bg-hover-color: #e5d9c8;
@@ -400,16 +400,16 @@ html[data-theme="basic-mocha-light"] {
     --color-shadow-cards: 0 4px 6px rgba(58, 44, 33, 0.06);
     --color-shadow-hover: 0 6px 12px rgba(58, 44, 33, 0.12);
 
-    --logo-color: #92400e;
+    --logo-color: #a43a3a;
     --logo-glow-shadow:
-        0 0 15px rgba(146, 64, 14, 0.3),
-        0 0 30px rgba(146, 64, 14, 0.2);
+        0 0 15px rgba(164, 58, 58, 0.3),
+        0 0 30px rgba(164, 58, 58, 0.2);
 
     /* Enums - Earthy Palette */
     --enum-red-bg: rgba(220, 38, 38, 0.15);
     --enum-red-fg: #dc2626;
-    --enum-orange-bg: rgba(217, 119, 6, 0.15);
-    --enum-orange-fg: #d97706;
+    --enum-orange-bg: rgba(224, 122, 95, 0.15);
+    --enum-orange-fg: #e07a5f;
     --enum-yellow-bg: rgba(202, 138, 4, 0.15);
     --enum-yellow-fg: #ca8a04;
     --enum-green-bg: rgba(101, 163, 13, 0.15);
@@ -424,17 +424,10 @@ html[data-theme="basic-mocha-light"] {
     --enum-pink-fg: #db2777;
 
     --prop-border-focused: #fcf5ed;
-    --prop-bg-focused: rgba(146, 64, 14, 0.2);
+    --prop-bg-focused: rgba(164, 58, 58, 0.2);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
-    --ed-drag-handle-color: #92400e;
-    --ed-drag-handle-hover-border: #78350f;
+    --ed-drag-handle-color: #a43a3a;
+    --ed-drag-handle-hover-border: #8b2c2c;
 
     --gradient-scrim: none;
-}
-
-html[data-theme] {
---ed-caret-self-radius: 2px;
---ed-caret-self-border-width: 0px;
---ed-caret-self-background: color-mix(in srgb, darkorange 70%, transparent);
---ed-caret-self-box-shadow: 0 0 2px darkorange;
 }
