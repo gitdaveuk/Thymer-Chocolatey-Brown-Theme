@@ -1,11 +1,11 @@
 /*
-* Mocha Theme for Thymer
+* Dark/White Chocolate Theme for Thymer
 * Rich, warm chocolatey browns with cozy accents
-* Variants: Dark (Espresso) and Light (Latte)
+* Variants: Dark and Light (Dark and white chocolate - which is your favourite?)
 */
 
 /* ------------------------------------------- */
-/* Mocha Espresso - Dark & Rich                */
+/* Dark Chocolate                */
 /* ------------------------------------------- */
 html[data-theme="basic-mocha-dark"] {
     color-scheme: dark;
@@ -219,7 +219,7 @@ html[data-theme="basic-mocha-dark"] {
 }
 
 /* ------------------------------------------- */
-/* Mocha Latte - Light & Creamy                */
+/* White Chocolate                */
 /* ------------------------------------------- */
 html[data-theme="basic-mocha-light"] {
     color-scheme: light;
