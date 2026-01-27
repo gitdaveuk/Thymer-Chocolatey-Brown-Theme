@@ -1,13 +1,13 @@
 /*
-* Dark/White Chocolate Theme for Thymer
+* Mocha Theme for Thymer
 * Rich, warm chocolatey browns with cozy accents
-* Variants: Dark and Light (Dark and white chocolate - which is your favourite?)
+* Variants: Dark (Espresso) and Light (Latte)
 */
 
 /* ------------------------------------------- */
-/* Dark Chocolate                */
+/* Mocha Espresso - Dark & Rich                */
 /* ------------------------------------------- */
-html[data-theme="basic-mocha-dark"] {
+html[data-theme="basic-dark-chocolate"] {
     color-scheme: dark;
 
     /* ------------------------------------------- */
@@ -19,9 +19,11 @@ html[data-theme="basic-mocha-dark"] {
     .heading-h4,
     .heading-h5,
     .heading-h6 {
-        color: #f5e6d3;
+        color: #d4c4b0;
     }
 
+    --text-base-size: 16px;
+  
     /* ------------------------------------------- */
     /* 2. Background Colors - Coffee Tones        */
     /* ------------------------------------------- */
@@ -35,8 +37,9 @@ html[data-theme="basic-mocha-dark"] {
     --color-bg-600: #1e1612;
     --color-bg-700: #16110d;
     --color-bg-800: #1e1612; /* Sidebar - medium brown */
-    --color-bg-900: #0f0703; /* Main window - dark chocolate */
-    --color-bg-950: #0f0b08;
+    /*--color-bg-900: #1d1814; /* Main window - dark chocolate */
+    --color-bg-900: #0f0703;  
+  --color-bg-950: #0f0b08;
     --color-bg-500-50: rgba(30, 22, 18, 0.5);
     --color-bg-950-50: rgba(15, 11, 8, 0.65);
 
@@ -61,15 +64,15 @@ html[data-theme="basic-mocha-dark"] {
     /* ------------------------------------------- */
     /* 4. Text & Icons - Cream & Latte            */
     /* ------------------------------------------- */
-    --color-text-50: #f5e6d3;
-    --color-text-100: #ffffff;
-    --color-text-200: #eddcc7;
-    --color-text-300: #d4c4b0;
-    --color-text-400: #b8a68f;
+    --color-text-50: #d4c4b0;
+    --color-text-100: #d4c4b0;
+    --color-text-200: #c4b4a0;
+    --color-text-300: #b8a68f;
+    --color-text-400: #a69580;
     --color-text-500: #8b7355;
     --color-text-600: #6b5444;
     --color-text-700: #cd5c5c;
-    --color-text-800: #d4c4b0;
+    --color-text-800: #b8a68f;
     --color-text-900: #3a2c21;
     --color-text-950: #8b7355;
 
@@ -81,7 +84,7 @@ html[data-theme="basic-mocha-dark"] {
     --text-warning: #fbbf24;
     --text-error: #dc2626;
     --bg-alert: #dc2626;
-    --fg-alert: #f5e6d3;
+    --fg-alert: #d4c4b0;
 
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions - Golden Hour    */
@@ -121,14 +124,14 @@ html[data-theme="basic-mocha-dark"] {
     /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
     --selection-bg: rgba(205, 92, 92, 0.3);
-    --selection-fg: #ffffff;
+    --selection-fg: #d4c4b0;
     --ed-selection-self-bg: rgba(205, 92, 92, 0.3);
     --ed-selection-blurred-bg: rgba(205, 92, 92, 0.15);
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: color-mix(in srgb, indianred 70%, transparent);
-    --ed-caret-self-box-shadow: 0 0 2px indianred;
+    --ed-caret-self-background: color-mix(in srgb, rosybrown 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 2px rosybrown;
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code - Warm Containers         */
@@ -160,7 +163,7 @@ html[data-theme="basic-mocha-dark"] {
     --cards-border-color-focused: transparent;
 
     --side-bg-active-focus: #8b2c2c;
-    --side-fg-active-focus: #f5e6d3;
+    --side-fg-active-focus: #d4c4b0;
     --sidebar-bg-hover: #2d2119;
     --sidebar-border-color: transparent;
 
@@ -219,9 +222,9 @@ html[data-theme="basic-mocha-dark"] {
 }
 
 /* ------------------------------------------- */
-/* White Chocolate                */
+/* Mocha Latte - Light & Creamy                */
 /* ------------------------------------------- */
-html[data-theme="basic-mocha-light"] {
+html[data-theme="basic-white-chocolate"] {
     color-scheme: light;
 
     /* ------------------------------------------- */
@@ -233,7 +236,7 @@ html[data-theme="basic-mocha-light"] {
     .heading-h4,
     .heading-h5,
     .heading-h6 {
-        color: #3a2c21;
+        color: #4a382b;
     }
 
     /* ------------------------------------------- */
@@ -243,16 +246,16 @@ html[data-theme="basic-mocha-light"] {
     --color-bg-100: #d4c4b0;
     --color-bg-150: #e5d9c8;
     --color-bg-200: #eddcc7;
-    --color-bg-300: #f5e6d3;
-    --color-bg-400: #f9ede0;
-    --color-bg-500: #fcf5ed;
-    --color-bg-600: #fcf5ed;
-    --color-bg-700: #fefcfa;
-    --color-bg-800: #eddcc7; /* Sidebar - warm cream */
-    --color-bg-900: #f5ebe0; /* Main window - soft latte */
-    --color-bg-950: #fcf5ed;
-    --color-bg-500-50: rgba(252, 245, 237, 0.5);
-    --color-bg-950-50: rgba(252, 245, 237, 0.65);
+    --color-bg-300: #f0e4d5;
+    --color-bg-400: #f2e8da;
+    --color-bg-500: #f4ebdf;
+    --color-bg-600: #f4ebdf;
+    --color-bg-700: #f6efe5;
+    --color-bg-800: #e5d9c8; /* Sidebar - warm cream */
+    --color-bg-900: #ebe0d4; /* Main window - soft latte */
+    --color-bg-950: #f4ebdf;
+    --color-bg-500-50: rgba(244, 235, 223, 0.5);
+    --color-bg-950-50: rgba(244, 235, 223, 0.65);
 
     /* ------------------------------------------- */
     /* 3. Primary Colors - Rich Indian Red        */
@@ -270,21 +273,21 @@ html[data-theme="basic-mocha-light"] {
     --color-primary-950: #fef2f2;
     --color-primary-400-70: rgba(164, 58, 58, 0.7);
     --color-primary-950-20: rgba(254, 242, 242, 0.2);
-    --color-primary-text-100: #ffffff;
+    --color-primary-text-100: #f4ebdf;
 
     /* ------------------------------------------- */
     /* 4. Text & Icons - Rich Browns              */
     /* ------------------------------------------- */
-    --color-text-50: #2d2119;
-    --color-text-100: #000000;
-    --color-text-200: #3a2c21;
-    --color-text-300: #4a382b;
-    --color-text-400: #5a4637;
-    --color-text-500: #6b5444;
+    --color-text-50: #3a2c21;
+    --color-text-100: #2d2119;
+    --color-text-200: #4a382b;
+    --color-text-300: #5a4637;
+    --color-text-400: #6b5444;
+    --color-text-500: #7d6655;
     --color-text-600: #8b7355;
     --color-text-700: #a43a3a;
-    --color-text-800: #3a2c21;
-    --color-text-900: #fcf5ed;
+    --color-text-800: #4a382b;
+    --color-text-900: #f4ebdf;
     --color-text-950: #6b5444;
 
     /* ------------------------------------------- */
@@ -295,7 +298,7 @@ html[data-theme="basic-mocha-light"] {
     --text-warning: #d97706;
     --text-error: #dc2626;
     --bg-alert: #dc2626;
-    --fg-alert: #ffffff;
+    --fg-alert: #f4ebdf;
 
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions - Warm Glow      */
@@ -322,7 +325,7 @@ html[data-theme="basic-mocha-light"] {
     --ed-check-div-border: #a43a3a;
     --ed-check-div-hover-border: #8b2c2c;
     --ed-check-done-bg: #a43a3a;
-    --ed-check-done-fg: #ffffff;
+    --ed-check-done-fg: #f4ebdf;
 
     /* Done task styling */
     .listitem.listitem-task.state-done .lineitem-text {
@@ -334,15 +337,15 @@ html[data-theme="basic-mocha-light"] {
     /* ------------------------------------------- */
     /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
-    --selection-bg: rgba(164, 58, 58, 0.2);
-    --selection-fg: #2d2119;
-    --ed-selection-self-bg: rgba(164, 58, 58, 0.2);
-    --ed-selection-blurred-bg: rgba(164, 58, 58, 0.1);
+    --selection-bg: rgba(205, 92, 92, 0.3);
+    --selection-fg: #f4ebdf;
+    --ed-selection-self-bg: rgba(205, 92, 92, 0.3);
+    --ed-selection-blurred-bg: rgba(205, 92, 92, 0.15);
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: color-mix(in srgb, indigo 70%, transparent);
-    --ed-caret-self-box-shadow: 0 0 2px indigo;
+    --ed-caret-self-background: color-mix(in srgb, rosybrown 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 2px rosybrown;
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code - Soft Containers         */
@@ -368,29 +371,29 @@ html[data-theme="basic-mocha-light"] {
     /* ------------------------------------------- */
     /* 10. UI Components - Warm Interface         */
     /* ------------------------------------------- */
-    --cards-bg: #f5ebe0;
-    --cards-hover-bg: #eddcc7;
+    --cards-bg: #ebe0d4;
+    --cards-hover-bg: #e5d9c8;
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
     --side-bg-active-focus: #a43a3a;
-    --side-fg-active-focus: #ffffff;
+    --side-fg-active-focus: #f4ebdf;
     --sidebar-bg-hover: #e5d9c8;
     --sidebar-border-color: transparent;
 
-    --cmdpal-bg-color: #fcf5ed;
+    --cmdpal-bg-color: #f4ebdf;
     --cmdpal-selected-bg-color: #a43a3a;
-    --cmdpal-selected-fg-color: #ffffff;
+    --cmdpal-selected-fg-color: #f4ebdf;
     --cmdpal-hover-bg-color: #f5e6d3;
     --cmdpal-border-color: transparent;
 
-    --input-bg-color: #fcf5ed;
+    --input-bg-color: #f4ebdf;
     --input-border-color: transparent;
     --input-border-focus: 1px solid #a43a3a;
     --input-border-shadow: 0 0 8px rgba(164, 58, 58, 0.3);
 
     --button-primary-bg-color: #a43a3a;
-    --button-primary-fg-color: #ffffff;
+    --button-primary-fg-color: #f4ebdf;
     --button-primary-bg-hover-color: #8b2c2c;
     --button-bg-color: #eddcc7;
     --button-border-color: transparent;
@@ -423,11 +426,12 @@ html[data-theme="basic-mocha-light"] {
     --enum-pink-bg: rgba(219, 39, 119, 0.15);
     --enum-pink-fg: #db2777;
 
-    --prop-border-focused: #fcf5ed;
+    --prop-border-focused: #f4ebdf;
     --prop-bg-focused: rgba(164, 58, 58, 0.2);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
     --ed-drag-handle-color: #a43a3a;
     --ed-drag-handle-hover-border: #8b2c2c;
 
-    --gradient-scrim: none;
+    /* THIS REMOVES THE GRADIENT ON THE BANNER IF YOU WANT IT 
+    --gradient-scrim: none; */
 }
